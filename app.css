@@ -1,0 +1,89 @@
+* {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.timer-main {
+  font-size: 10rem;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.welcome-title h1 {
+  font-size: rem;
+  background: linear-gradient(
+    147deg,
+    rgba(249, 15, 216, 1) 0%,
+    rgba(245, 67, 119, 1) 26%,
+    rgba(252, 28, 28, 1) 50%,
+    rgba(255, 195, 13, 1) 75%,
+    rgba(114, 251, 89, 1) 100%
+  );
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  color: transparent;
+}
+.welcome-title {
+  background-color: #151516;
+  width: 100%;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+
+  /* transform: translate(0, 50%); */
+  /* padding: 200px; */
+}
+.lapse-card {
+  background-color: red;
+  width: 100%;
+  margin: 5px;
+  width: 200px;
+}
+#lapse {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace !important;
+  background-color: #343a40;
+  height: 400px;
+  width: 50%;
+  padding: 5px;
+}
+.logs {
+  font-family: "Courier New", Courier, monospace !important;
+}
+.input-group {
+  width: 500px;
+  float: right;
+}
+.input-group span,
+input {
+  border-radius: 0 !important;
+}
+.input-group span {
+  cursor: pointer;
+}
+.input-group span:hover {
+  background-color: lightgray;
+}
