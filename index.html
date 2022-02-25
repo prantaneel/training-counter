@@ -20,10 +20,10 @@
   </head>
   <body>
     <script>
-      localStorage.setItem("h", "00");
-      localStorage.setItem("m", "00");
-      localStorage.setItem("s", "00");
-      localStorage.setItem("t", 0);
+      if(!localStorage.getItem("h")){localStorage.setItem("h", "00")};
+      if(!localStorage.getItem("m")){localStorage.setItem("m", "00")};
+      if(!localStorage.getItem("s")){localStorage.setItem("s", "00")};
+      if(!localStorage.getItem("t")){localStorage.setItem("t", 0)};
       localStorage.setItem("run", false);
     </script>
     <div id="root">
